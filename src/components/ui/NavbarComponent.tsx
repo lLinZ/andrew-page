@@ -16,7 +16,7 @@ export const NavbarComponent: FC = () => {
     ];
 
     return (
-        <Navbar isBordered variant="sticky">
+        <Navbar isBordered variant="floating">
             <Navbar.Toggle showIn="xs" />
             <Navbar.Brand
                 css={{

@@ -7,7 +7,9 @@ export const Layout: FC<Props> = ({ children }) => {
     return (
         <>
             <NavbarComponent />
-            {children}
+            <div style={{ marginTop: "-60px" }}>
+                {children}
+            </div>
         </>
     )
 }
