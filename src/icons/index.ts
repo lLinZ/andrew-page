@@ -1,0 +1,6 @@
+export * from './Whatsapp'
+export * from './Instagram'
+export * from './Twitter'
+export * from './Youtube'
+export * from './Tiktok'
+export * from './Facebook'

@@ -9,10 +9,15 @@ import { VideoGridComponent } from '../components/index/content';
 export const IndexPage: FC = () => {
     return (
         <Layout>
-            <HeaderComponent />
-            <AboutUsComponent />
-            <VideoGridComponent />
-            {/* <ShapeDivider /> */}
+            <section id="header">
+                <HeaderComponent />
+            </section>
+            <section id="about">
+                <AboutUsComponent />
+            </section>
+            <section id="content" style={{ paddingTop: 80 }}>
+                <VideoGridComponent />
+            </section>
         </Layout>
     )
 }

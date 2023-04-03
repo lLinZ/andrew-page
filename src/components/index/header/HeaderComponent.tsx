@@ -12,17 +12,17 @@ export const HeaderComponent = () => {
                 width: "100%",
                 height: "600px",
                 objectFit: "cover",
-            }} src="/bg-video.mp4" autoPlay={true} muted={true} loop={true}></video>
-            <Container css={{ position: "absolute", top: "50%", left: "50%", transform: "translateX(-50%) translateY(-50%)", margin: 0, padding: 0, width: "100%" }}>
+            }} src="/videobg.mp4" autoPlay={true} muted={true} loop={true}></video>
+            <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translateX(-50%) translateY(-50%)", margin: 0, padding: 0, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", flexFlow: "column wrap" }}>
 
-                <div style={{ width: "150px", height: "150px", borderRadius: "50%", overflow: "hidden" }}>
-
-                    <Image objectFit="cover" src={'/logo.jpg'} />
-                </div>
-                <Text css={{ fontSize: 24, fontFamily: "Kanit" }}>
-                    Empresadeandrew hehe
+                <Image objectFit="cover" src={'/logo.jpg'} css={{ borderRadius: "50%", width: 200, height: 200 }} />
+                <Text css={{ fontSize: 24, fontFamily: "Raleway" }}>
+                    Entrefamilia, C.A
                 </Text>
-            </Container>
+                <Text css={{ fontSize: 50, fontFamily: "Permanent Marker", padding: 20, textAlign: 'center' }}>
+                    Hacemos arte tus ideas
+                </Text>
+            </div>
             <ShapeDivider />
         </div>
     )
